@@ -29,7 +29,8 @@ You can preview the production build with `npm run preview`.
 
 By default, client-side rendering is disabled. This essentially turns SvelteKit
 into a static site generator, where all of the HTML is generated at build time
-and nothing changes afterwards. If you need CSR, you can set
+and nothing changes afterwards. This does disable HMR though, so you may want to
+leave this on during development. If you need CSR, you can set
 
 ```ts
 export const csr = true;
