@@ -1,6 +1,6 @@
 {
   "name": "sveltekit-tailwind-static-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "vite dev",
@@ -10,7 +10,7 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
-    "preversion" : "npm run build"
+    "preversion": "npm run build"
   },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
