@@ -1,2 +1,5 @@
+import { dev } from "$app/environment";
 export const prerender = true;
-export const csr = false;
+// Client-side rendering is enabled during dev to enable hot module reloads but disabled
+// during final build
+export const csr = dev;
